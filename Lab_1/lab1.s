@@ -3,9 +3,9 @@ u1: .word 1	    #primeiro numero da sucessão
 u2: .word 1	    #segundo numero da sucessão
 
 .text
-li a4,2			    #offset da contagem (pois ja temos os 2 primeiros membros)
-li a5,10		    #numero de membros que se deseja da sucessão
-la a0,u1		    #Load da adress do primeiro membro da sucessão (x10=a0 vai ter o valor do endereço de u1)
+li a4,2			#offset da contagem (pois ja temos os 2 primeiros membros)
+li a5,10		#numero de membros que se deseja da sucessão
+la a0,u1    #Load da adress do primeiro membro da sucessão (x10=a0 vai ter o valor do endereço de u1)
 
 while:
 lw a1,0(a0)		  #Load dos valores da memoria
