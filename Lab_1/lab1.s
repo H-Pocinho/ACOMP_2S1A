@@ -1,6 +1,6 @@
 .data
 u1: .word 1	    #primeiro numero da sucessão
-u2:	.word 1	    #segundo numero da sucessão
+u2: .word 1	    #segundo numero da sucessão
 
 .text
 li a4,2			    #offset da contagem (pois ja temos os 2 primeiros membros)
