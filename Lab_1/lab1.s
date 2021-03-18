@@ -15,3 +15,6 @@ sw a3,8(a0)       #guarda o valor da soma de un=u(n-2)+u(n-1)
 addi a4,a4,1	  #contagem do numero de ciclos
 addi a0,a0,4	  #salta para a posição de memoria seguinte
 blt a4,a5,while   #repete o ciclo até atingir o numero definido na linha 7
+
+li x17,10    #termina o programa
+ecall
