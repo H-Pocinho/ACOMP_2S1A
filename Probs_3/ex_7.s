@@ -1,11 +1,9 @@
 #Criado por Henrique Alves Pocinho IST199952
 
-.data
+.text
 li x10,6
 li x1,0x48
 
-
-.text
 fact:
 addi sp,sp,-8
 sw	 x1,4(sp) 

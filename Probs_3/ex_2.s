@@ -1,15 +1,11 @@
 .data
-auipc a0 0x10000
-li    a1,0xfffeff #valor que vai ser guardado em memoria
-addi  a7,zero,32
-addi  a6,zero,32 #vai guardar o nmr de bits
-
-
+mem: .word 0xf00000 #valor que vai ser guardado em memoria
 
 .text
-sw a1,0(a0)
-lw a2,0(a0)
-lw a3,0(a0)
+addi  a7,zero,32
+addi  a6,zero,32 #vai guardar o nmr de bits
+lw a2,mem
+lw a3,mem
 
 function:
 srli a3,a3,1
@@ -36,3 +32,4 @@ end:
 sub a6,a6,a7
 li  x17,10
 ecall
+
