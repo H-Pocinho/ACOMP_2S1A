@@ -3,6 +3,8 @@ a: .word 10
 b: .word 5
 c: .word 1
 
+#Criado por Henrique Alves Pocinho IST199952
+
 .text
 lw a0,a
 lw a1,b

@@ -1,3 +1,5 @@
+#Criado por Henrique Alves Pocinho IST199952
+
 .data
 a: .word 10
 b: .word 5

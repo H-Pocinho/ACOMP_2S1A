@@ -1,5 +1,6 @@
 .data
 mem: .word 0xf00000 #valor que vai ser guardado em memoria
+#Criado por Henrique Alves Pocinho IST199952
 
 .text
 addi  a7,zero,32

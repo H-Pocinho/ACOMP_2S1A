@@ -35,6 +35,8 @@ lw a0,0(sp)
 addi sp,sp,4
 lw a1,0(sp)
 sub a0,a0,a1
+#Criado por Henrique Alves Pocinho IST199952
+
 addi sp,sp,-4
 sw a0,0(sp)
 

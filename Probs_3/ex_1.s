@@ -1,3 +1,5 @@
+#Criado por Henrique Alves Pocinho IST199952
+
 .text
 li a0,11	#valor de x
 li a1,0		#valor de y

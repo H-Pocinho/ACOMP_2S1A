@@ -1,3 +1,5 @@
+#Criado por Henrique Alves Pocinho IST199952
+
 .data
 nvalores: .word 9
 valores: .word 1,2,3,4,5,6,7,8,9
