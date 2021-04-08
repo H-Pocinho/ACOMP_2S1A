@@ -33,7 +33,7 @@ lw a3,0(sp)
 lw a2,4(sp)
 lw a1,8(sp)
 lw a0,12(sp)
-addi sp,sp,-16
+addi sp,sp,16
 
 li   x17,10
 ecall
