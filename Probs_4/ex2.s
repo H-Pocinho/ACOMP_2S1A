@@ -39,7 +39,7 @@ beq a1,x0,end
 lw a5,-2(a0)
 
 end:
-ret
+sret
 
 #c
 #Guarda o valor de GIE em SPIE
