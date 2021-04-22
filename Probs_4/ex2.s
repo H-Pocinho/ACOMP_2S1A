@@ -8,9 +8,23 @@ csrrw x0,sie,x10
 csrrsi x0,sstatus,0b10
 
 INT:
+addi sp,sp,-8
+sw x1,4(sp)
+sw x10,0(sp)
 csrrw x10,scause,x0 
-addi x11,x10,-5
-bne x11,x0,checkTemp
+addi x10,x10,-3
+bne x10,x0,next
+jal checkTempo
+j end
+
+next:
+
+end:
+
+lw x1,4(sp)
+lw x10,0(sp)
+addi sp,sp,8
+sret
 
 
 #b
